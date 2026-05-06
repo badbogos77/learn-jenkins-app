@@ -13,7 +13,7 @@ pipeline {
                 sh '''
                     ls -al
                     npm --version
-                    docker --version
+                    node --version
                     npm ci
                     npm run build
                     ls -al
